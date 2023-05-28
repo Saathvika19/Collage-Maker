@@ -1,0 +1,81 @@
+body{
+    background-color:rgb(131, 144, 177);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    left: 35px;
+    font-size: 25px;
+    
+}
+.mid{
+    display: block;
+    border: 3px solid  rgb(135 139 142 / 87%) ;
+    width: 60%;
+    margin: 20px auto ;
+    background-color: rgb(252, 254, 255);
+    border-radius: 30px ;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    font-size:25px;
+    width: 10% ;
+    border: 2px solid black;
+    text-align: center;
+    background-color:rgb(252, 254, 255) ;
+    border-radius: 30px;
+    height: 40px;
+    padding-top: 10px;
+}
+.navig {
+    display: inline-block;
+}
+.navig li {
+    display: inline-block;
+    font-size: 25px;
+}
+.navig li a {
+    color: black;
+    text-decoration: none;
+    padding: 32px 23px ;
+}
+.navig li a:hover {
+    color: rgb(248, 21, 21);
+    text-decoration:underline;
+}
+.tech{
+    border: 2px solid black;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left:27%;
+    background-color:  rgb(135 139 142 / 87%);
+    height:190px;
+    text-align: center;
+    border-radius: 15px;
+    font-style: italic;
+    width: 45%;
+}
+h2{
+    border: 3px solid black ;
+    display: inline-block;
+    background-color:rgb(252, 254, 255) ; 
+    text-align: center;
+    border-radius: 5px;   
+}
+.collage:hover {
+    background-color: black;
+    color: white;
+}
+.top{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(135 139 142 / 87%) ;
+    border: 15px solid  rgb(135 139 142 / 87%);
+}
